@@ -29,7 +29,7 @@ resource "aws_ssm_parameter" "recipient-emails" {
 resource "aws_ssm_parameter" "lvlp-athena-db-name" {
   name  = "/omni-live-pv-hardware-report/${var.env}/athena/db.Name"
   type  = "String"
-  value = var.recipient_emails
+  value = var.athena_db_name
 
   tags = {
     Application = "PV Hardware Reports"
