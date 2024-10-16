@@ -1,3 +1,2 @@
-# omni-infra-repo-template
+# omni-live-pv-hardware-report-infra
 This is a template infra repo for Omni 
-Please replace the 'project-name' in the jenkins file with your repo name.
